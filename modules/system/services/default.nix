@@ -8,6 +8,5 @@
 {
   imports = [
     ./printing.nix
-    ./fwupd.nix
   ];
 }
