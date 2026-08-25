@@ -9,7 +9,7 @@ order = [ "default" ]
     font_family = "Maple Mono NF CN"
     margin_ends = 0
     radius = 0
-    shadow = false
+    shadow = true
     thickness = 52
 
 [battery]
@@ -96,7 +96,8 @@ background_opacity = 0.99999997764825821
 background_opacity = 0.99999997764825821
 
 [shell]
-font_family = "Maple Mono CN"
+app_icon_color = "secondary"
+font_family = "Maple Mono NF CN"
 password_style = "random"
 polkit_agent = true
 settings_window_translucent = false
@@ -115,6 +116,9 @@ mode = "auto"
 source = "wallpaper"
 wallpaper_scheme = "faithful"
 
+    [theme.templates]
+    builtin_ids = [ "kitty", "niri" ]
+
 [wallpaper]
 directory = "/home/yjc/nixos-config/config/wallpapers"
 
@@ -122,13 +126,13 @@ directory = "/home/yjc/nixos-config/config/wallpapers"
     enabled = true
 
     [wallpaper.default]
-    path = "/home/yjc/nixos-config/config/wallpapers/【哲风壁纸】幸运星-搞怪表情.jpg"
+    path = "/home/yjc/nixos-config/config/wallpapers/wallhaven-yq9red_2560x1600.png"
 
     [wallpaper.last]
-    path = "/home/yjc/nixos-config/config/wallpapers/【哲风壁纸】幸运星-搞怪表情.jpg"
+    path = "/home/yjc/nixos-config/config/wallpapers/wallhaven-yq9red_2560x1600.png"
 
     [wallpaper.monitors.eDP-1]
-    path = "/home/yjc/nixos-config/config/wallpapers/【哲风壁纸】幸运星-搞怪表情.jpg"
+    path = "/home/yjc/nixos-config/config/wallpapers/wallhaven-yq9red_2560x1600.png"
 
     [[wallpaper.favorite]]
     path = "/home/yjc/nixos-config/config/wallpapers/reze-selfie-3840x2160-26716.jpg"
