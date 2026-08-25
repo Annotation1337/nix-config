@@ -1,0 +1,134 @@
+[backdrop]
+blur_intensity = 0.29999999329447746
+tint_intensity = 0.29999999329447746
+
+[bar]
+order = [ "default" ]
+
+    [bar.default]
+    margin_ends = 0
+    radius = 0
+    shadow = false
+    thickness = 52
+
+[battery]
+warning_threshold = 20
+
+[control_center]
+width = 780
+
+[dock]
+background_opacity = 0.99999997764825821
+
+[lockscreen_widgets]
+enabled = true
+schema_version = 2
+widget_order = [ "lockscreen-login-box@eDP-1", "lockscreen-widget-0000000000000001", "lockscreen-widget-0000000000000002" ]
+
+    [lockscreen_widgets.grid]
+    cell_size = 8
+    major_interval = 4
+    visible = true
+
+    [lockscreen_widgets.widget."lockscreen-login-box@eDP-1"]
+    box_height = 70.0
+    box_width = 400.0
+    cx = 984.5
+    cy = 1028.5
+    output = "eDP-1"
+    placement_height = 1231.0
+    placement_width = 1969.0
+    rotation = 0.0
+    type = "login_box"
+
+        [lockscreen_widgets.widget."lockscreen-login-box@eDP-1".settings]
+        background_color = "surface_variant"
+        background_opacity = 0.5
+        background_radius = 12.0
+        center_password_text = true
+        input_opacity = 0.29999999999999999
+        input_radius = 12.0
+        layout = "compact"
+        show_caps_lock = true
+        show_keyboard_layout = true
+        show_login_button = true
+        show_media = true
+        show_session_buttons = true
+        show_unlock_hint = true
+        show_weather = true
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000001]
+    box_height = 144.0
+    box_width = 400.0
+    cx = 984.5
+    cy = 247.5
+    output = "eDP-1"
+    placement_height = 1231.0
+    placement_width = 1969.0
+    rotation = 0.0
+    type = "clock"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000001.settings]
+        background_opacity = 0.5
+
+    [lockscreen_widgets.widget.lockscreen-widget-0000000000000002]
+    box_height = 248.0
+    box_width = 264.0
+    cx = 532.5
+    cy = 287.5
+    output = "eDP-1"
+    placement_height = 1231.0
+    placement_width = 1969.0
+    rotation = 0.0
+    type = "fancy_audio_visualizer"
+
+        [lockscreen_widgets.widget.lockscreen-widget-0000000000000002.settings]
+        background = false
+        rotation_speed = 1.0
+        sensitivity = 2.0
+        visualization_mode = "all"
+
+[notification]
+background_opacity = 0.99999997764825821
+
+[osd]
+background_opacity = 0.99999997764825821
+
+[shell]
+font_family = "Inter"
+password_style = "random"
+polkit_agent = true
+settings_window_translucent = true
+
+    [shell.greeter_sync]
+    auto_sync = true
+
+    [shell.panel]
+    clipboard_placement = "attached"
+    polkit_placement = "attached"
+
+[theme]
+community_palette = "Catppuccin Frappe Rosewater"
+custom_palette = "macos"
+mode = "dark"
+source = "wallpaper"
+wallpaper_scheme = "soft"
+
+[wallpaper]
+directory = "/home/yjc/nixos-config/config/wallpapers"
+
+    [wallpaper.automation]
+    enabled = true
+
+    [wallpaper.default]
+    path = "/home/yjc/nixos-config/config/wallpapers/【哲风壁纸】幸运星-搞怪表情.jpg"
+
+    [wallpaper.last]
+    path = "/home/yjc/nixos-config/config/wallpapers/【哲风壁纸】幸运星-搞怪表情.jpg"
+
+    [wallpaper.monitors.eDP-1]
+    path = "/home/yjc/nixos-config/config/wallpapers/【哲风壁纸】幸运星-搞怪表情.jpg"
+
+    [[wallpaper.favorite]]
+    path = "/home/yjc/nixos-config/config/wallpapers/reze-selfie-3840x2160-26716.jpg"
+    theme_mode = "auto"
