@@ -14,6 +14,7 @@
     ./git.nix
     ./google-chrome.nix
     ./mission-center.nix
+    ./brave-origin.nix
   ];
 
   environment.systemPackages = with pkgs; [

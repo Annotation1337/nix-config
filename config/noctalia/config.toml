@@ -126,7 +126,7 @@ wallpaper_scheme = "faithful"
 directory = "/home/yjc/nixos-config/config/wallpapers"
 
     [wallpaper.automation]
-    enabled = true
+    enabled = false
 
     [wallpaper.default]
     path = "/home/yjc/nixos-config/config/wallpapers/wallhaven-xe9yel_2560x1600.png"
