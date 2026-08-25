@@ -6,6 +6,7 @@ tint_intensity = 0.29999999329447746
 order = [ "default" ]
 
     [bar.default]
+    font_family = "Maple Mono NF CN"
     margin_ends = 0
     radius = 0
     shadow = false
@@ -95,10 +96,10 @@ background_opacity = 0.99999997764825821
 background_opacity = 0.99999997764825821
 
 [shell]
-font_family = "Inter"
+font_family = "Maple Mono CN"
 password_style = "random"
 polkit_agent = true
-settings_window_translucent = true
+settings_window_translucent = false
 
     [shell.greeter_sync]
     auto_sync = true
@@ -109,10 +110,10 @@ settings_window_translucent = true
 
 [theme]
 community_palette = "Catppuccin Frappe Rosewater"
-custom_palette = "macos"
-mode = "dark"
+custom_palette = "wallhaven-yq9red-2560x1600-vib-2"
+mode = "auto"
 source = "wallpaper"
-wallpaper_scheme = "soft"
+wallpaper_scheme = "faithful"
 
 [wallpaper]
 directory = "/home/yjc/nixos-config/config/wallpapers"
