@@ -7,10 +7,6 @@
 
 {
   environment.systemPackages = with pkgs; [
-    nautilus
-    pcmanfs
-    loupe
-    papers
-    gnome-text-editor
+    opencode
   ];
 }
