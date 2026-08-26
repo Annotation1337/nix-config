@@ -8,7 +8,7 @@
 {
   environment.systemPackages = with pkgs; [
     nautilus
-    pcmanfs
+    pcmanfm
     loupe
     papers
     gnome-text-editor

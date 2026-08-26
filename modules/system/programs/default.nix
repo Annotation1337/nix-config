@@ -13,7 +13,7 @@
     ./git.nix
     ./mission-center.nix
     ./brave-origin.nix
-    ./opencode
+    ./opencode.nix
   ];
 
   environment.systemPackages = with pkgs; [
